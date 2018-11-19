@@ -4,7 +4,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    border: 1px solid black;
+    outline: none;
+}
+
+html {
+    background: url('../assets/geometry2.png');
+    background-repeat: repeat;
 }
 
 .flex-box {
@@ -19,12 +24,18 @@
     flex-direction: column;
 }
 
+.spacing {
+    justify-content: space-between;
+}
+
+.center-flex {
+    justify-content: center;
+}
+
 .container-grid {
     width: 80%;
-    height: 100vh;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid black;
 }
 
 .box-img {
@@ -41,4 +52,55 @@ header {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin: 2rem;
+}
+
+.input-info {
+    margin: 2rem
+}
+
+.input {
+    width: 49%;
+    padding: 0.6rem;
+    border-radius: 23px;
+    background: #fafbfd;
+    border: 1px solid;
+}
+
+.input-primary {
+    color: #007392;
+    border-color: #007392;
+}
+
+.input-secondary {
+    color: #970008;
+    border-color: #970008;
+}
+
+.second-info {
+    width: 50%;
+}
+
+.more-info {
+    align-items: flex-start;
+}
+
+.second-info span {
+    font-size: x-small;
+    text-align: center;
+}
+
+.btn {
+    width: 30%;
+    padding: 0.5rem;
+    border-radius: 37px;
+    background: #007191;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #970008;
+    ;
 }
