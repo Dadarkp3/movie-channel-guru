@@ -93,6 +93,8 @@ header {
 .second-info span {
     font-size: x-small;
     text-align: center;
+    min-width: 300px;
+    width: 80%;
 }
 
 .btn {
