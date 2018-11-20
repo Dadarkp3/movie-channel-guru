@@ -112,14 +112,12 @@ header {
 
 /* ----------- Animation -------------- */
 
-.animated {
-    -webkit-animation-duration: 2s;
+.animate {
     animation-duration: 2s;
-    -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
 
-@keyframes bounceInDown {
+@keyframes descer {
     from,
     60%,
     75%,
@@ -130,8 +128,8 @@ header {
     }
     0% {
         opacity: 0;
-        -webkit-transform: translate3d(0, -3000px, 0);
-        transform: translate3d(0, -3000px, 0);
+        -webkit-transform: translate3d(0, -4000px, 0);
+        transform: translate3d(0, -4000px, 0);
     }
     60% {
         opacity: 1;
@@ -152,12 +150,12 @@ header {
     }
 }
 
-.bounceInDown {
-    -webkit-animation-name: bounceInDown;
-    animation-name: bounceInDown;
+.descer {
+    -webkit-animation-name: descer;
+    animation-name: descer;
 }
 
-@keyframes bounceInLeft {
+@keyframes esquerda {
     from,
     60%,
     75%,
@@ -168,8 +166,8 @@ header {
     }
     0% {
         opacity: 0;
-        -webkit-transform: translate3d(-3000px, 0, 0);
-        transform: translate3d(-3000px, 0, 0);
+        -webkit-transform: translate3d(-4000px, 0, 0);
+        transform: translate3d(-4000px, 0, 0);
     }
     60% {
         opacity: 1;
@@ -190,12 +188,12 @@ header {
     }
 }
 
-.bounceInLeft {
-    -webkit-animation-name: bounceInLeft;
-    animation-name: bounceInLeft;
+.esquerda {
+    -webkit-animation-name: esquerda;
+    animation-name: esquerda;
 }
 
-@keyframes bounceInRight {
+@keyframes direita {
     from,
     60%,
     75%,
@@ -206,8 +204,8 @@ header {
     }
     from {
         opacity: 0;
-        -webkit-transform: translate3d(3000px, 0, 0);
-        transform: translate3d(3000px, 0, 0);
+        -webkit-transform: translate3d(4000px, 0, 0);
+        transform: translate3d(4000px, 0, 0);
     }
     60% {
         opacity: 1;
@@ -228,12 +226,12 @@ header {
     }
 }
 
-.bounceInRight {
-    -webkit-animation-name: bounceInRight;
-    animation-name: bounceInRight;
+.direita {
+    -webkit-animation-name: direita;
+    animation-name: direita;
 }
 
-@keyframes bounceInUp {
+@keyframes subir {
     from,
     60%,
     75%,
@@ -244,8 +242,8 @@ header {
     }
     from {
         opacity: 0;
-        -webkit-transform: translate3d(0, 3000px, 0);
-        transform: translate3d(0, 3000px, 0);
+        -webkit-transform: translate3d(0, 4000px, 0);
+        transform: translate3d(0, 4000px, 0);
     }
     60% {
         opacity: 1;
@@ -257,8 +255,8 @@ header {
         transform: translate3d(0, 10px, 0);
     }
     90% {
-        -webkit-transform: translate3d(0, -5px, 0);
-        transform: translate3d(0, -5px, 0);
+        -webkit-transform: translate3d(0, -6px, 0);
+        transform: translate3d(0, -6px, 0);
     }
     to {
         -webkit-transform: translate3d(0, 0, 0);
@@ -266,25 +264,7 @@ header {
     }
 }
 
-.bounceInUp {
-    -webkit-animation-name: bounceInUp;
-    animation-name: bounceInUp;
-}
-
-@-webkit-keyframes bounceOut {
-    20% {
-        -webkit-transform: scale3d(0.9, 0.9, 0.9);
-        transform: scale3d(0.9, 0.9, 0.9);
-    }
-    50%,
-    55% {
-        opacity: 1;
-        -webkit-transform: scale3d(1.1, 1.1, 1.1);
-        transform: scale3d(1.1, 1.1, 1.1);
-    }
-    to {
-        opacity: 0;
-        -webkit-transform: scale3d(0.3, 0.3, 0.3);
-        transform: scale3d(0.3, 0.3, 0.3);
-    }
+.subir {
+    -webkit-animation-name: subir;
+    animation-name: subir;
 }
