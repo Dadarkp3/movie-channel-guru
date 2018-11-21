@@ -33,6 +33,10 @@ html {
     justify-content: space-between;
 }
 
+.spacing-center {
+    justify-content: space-around;
+}
+
 .center-flex {
     justify-content: center;
 }
@@ -97,7 +101,8 @@ header {
     width: 80%;
 }
 
-.btn {
+.btn,
+.btn-inverse:hover {
     width: 30%;
     padding: 0.5rem;
     border-radius: 37px;
@@ -105,6 +110,14 @@ header {
     border: none;
     color: white;
     cursor: pointer;
+}
+
+.btn-inverse {
+    background-color: #970008;
+}
+
+.btn-inverse:hover {
+    background-color: #007191 !important;
 }
 
 .btn:hover {
