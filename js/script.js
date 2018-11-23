@@ -1,21 +1,21 @@
+const service = new FilmeService();
+  
+/* service.buscaPorFiltro('', '', 'ação', 'norman')
+  .then(filmes => {
+    console.log(filmes);
+  });
+ */
 
-function pesquisar(){
+  function limparForm(){
 
-    
+    let ano_entrada = document.getElementById("ano");
+    let ator_entrada = document.getElementById("ator");
+    let outros_entrada = document.getElementById("outros");
 
-}
-
-
-function limparForm(){
-
-    let ano_entrada = document.getElementById("ano").value;
-    let genero_entrada = document.getElementById("genero").value;
-    let ator_entrada = document.getElementById("ator").value;
-    let outros_entrada = document.getElementById("outros").value;
+    ano_entrada.value = '';
+    ator_entrada.value = '';
+    outros_entrada.value = '';
 
     console.log(ano_entrada);
 
 }
-
-
-

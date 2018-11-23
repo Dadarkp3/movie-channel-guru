@@ -58,7 +58,7 @@
         <div class="response" id="response">
             <section class="flex-box spacing-center flexbox--wrap input-info animate esquerda">
                 <button class="btn btn-inverse" type="submit">Indicar outro filme</button>
-                <button class="btn" type="submit">Iniciar nova busca</button>
+                <button class="btn" onclick="limparForm()" type="submit">Iniciar nova busca</button>
             </section>
             <section id="movie-response" class="movie">
                 <h2 id="movie-name" class="movie-name">+ Velozes + Furiosos</h2>
@@ -84,6 +84,9 @@
     </main>
     <footer></footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../js/model/Filme.js"></script>
+    <script src="../js/util/ConverteDivParaFilmeUtil.js"></script>
+    <script src="../js/service/FilmeService.js"></script>
     <script src="../js/script.js"></script>
 </body>
 
