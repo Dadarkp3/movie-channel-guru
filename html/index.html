@@ -22,8 +22,8 @@
         <div class="search" id="search">
             <form action="/submit-movie">
                 <section class="flex-box spacing flexbox--wrap input-info animate esquerda">
-                    <input class="input input-primary" type="text" placeholder="Digite o ano...">
-                    <select class="input input-secondary">
+                    <input id="ano" class="input input-primary" type="text" placeholder="Digite o ano...">
+                    <select id="genero" class="input input-secondary">
                         <option value="acao">Ação</option>
                         <option value="ficcao">Ficção</option>
                         <option value="drama">Drama</option>
@@ -45,10 +45,10 @@
                 </section>
                 <section class="flex-box spacing flexbox--wrap input-info more-info animate direita">
                     <div class="flex-box flexbox--column second-info">
-                        <input style="width: 98%;" class="input input-primary" type="text" placeholder="Digite os Atores...">
+                        <input id="atores" style="width: 98%;" class="input input-primary" type="text" placeholder="Digite os Atores...">
                         <span>Separe o nome dos atores por vírgula</span>
                     </div>
-                    <input class="input input-secondary" type="text" placeholder="Digite outras informações...">
+                    <input id="outros" class="input input-secondary" type="text" placeholder="Digite outras informações...">
                 </section>
                 <section class="flex-box center-flex animate">
                     <button class="btn" type="submit">Indicamos</button>
