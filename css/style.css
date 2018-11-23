@@ -124,6 +124,42 @@ header {
     background-color: #970008;
 }
 
+.movie-name {
+    color: #970008;
+    margin-bottom: 1rem;
+}
+
+.movie-information {
+    display: flex;
+}
+
+.movie-img {
+    width: 19%;
+    margin: 1%;
+}
+
+.movie-img #no-image {
+    width: 100%;
+}
+
+.movie-text {
+    width: 79%;
+    margin: 2%;
+}
+
+.ano {
+    font-size: larger;
+}
+
+.lista-categoria {
+    display: inline;
+    list-style: none;
+}
+
+.sinopse p {
+    text-align: justify;
+}
+
 
 /* ----------- Animation -------------- */
 
