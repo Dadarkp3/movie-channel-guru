@@ -10,23 +10,40 @@
 <body>
     <form action="/submit-movie">
         <section class="flex-box spacing flexbox--wrap input-info animate esquerda">
-            <input class="input input-primary" type="text" placeholder="Digite o ano...">
+            <input id="ano" class="input input-primary" type="text" placeholder="Digite o ano...">
             <select class="input input-secondary">
-                            <option value="volvo">Volvo</option>
-                            <option value="saab">Saab</option>
-                            <option value="mercedes">Mercedes</option>
-                            <option value="audi">Audi</option>
+                <option value="acao">Ação</option>
+                <option value="ficcao">Ficção</option>
+                <option value="drama">Drama</option>
+                <option value="comedia">Comédia</option>
+                <option value="terror">Terror</option>
+                <option value="musical">Musical</option>
+                <option value="documentario">Documentário</option>
+                <option value="epico">Épico</option>
+                <option value="aventura">Aventura</option>
+                <option value="suspense">Suspense</option>
+                <option value="faroeste">Faroeste</option>
+                <option value="romance">Romance</option>
+                <option value="policial">Policial</option>
+                <option value="guerra">Guerra</option>
+                <option value="classico">Clássico</option>
+                <option value="animacao">Animação</option>
+                <option value="infantil">Infantil</option>
                     </select>
         </section>
         <section class="flex-box spacing flexbox--wrap input-info more-info animate direita">
             <div class="flex-box flexbox--column second-info">
-                <input style="width: 98%;" class="input input-primary" type="text" placeholder="Digite os Atores...">
+                <input id="atores"  style="width: 98%;" class="input input-primary" type="text" placeholder="Digite os Atores...">
                 <span>Separe o nome dos atores por vírgula</span>
             </div>
-            <input class="input input-secondary" type="text" placeholder="Digite outras informações...">
+            <input id="outros"  class="input input-secondary" type="text" placeholder="Digite outras informações...">
         </section>
         <section class="flex-box center-flex animate">
-            <button class="btn" type="submit">Indicamos</button>
+            <button id="indicar-btn"  class="btn" type="submit">Indicamos</button>
         </section>
     </form>
+
+    <div id="teste">
+
+    </div>
 </body>
