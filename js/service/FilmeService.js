@@ -9,7 +9,6 @@ class FilmeService {
     return fetch(this._API_URL)
       .then(res => {
         if(!res.ok) {
-          console.log(res);
           throw new Error('Erro ao processar a requisição');
         }
         return res.text();

@@ -164,6 +164,36 @@ header {
     margin: 2rem 1rem 2rem 0;
 }
 
+.categoria{
+    margin-top: 1rem;
+}
+
+.atores{
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+#atores-mostrar{
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.atores li{
+    background: #007191;
+padding: 3px 1rem;
+margin: 0rem 1rem;
+border-radius: 13px;
+text-align: center;
+flex-direction: row;
+align-self: center;
+margin: 0.2rem;
+color: white;
+}
+
 
 /* ----------- Animation -------------- */
 
@@ -247,6 +277,7 @@ header {
     -webkit-animation-name: esquerda;
     animation-name: esquerda;
 }
+
 
 @keyframes direita {
     from,
